@@ -15,7 +15,7 @@ var setTime = function() {
 }
 
 function sendMessage(){
-    timeEL.textContent="timeup";
+    timeEL.textContent="TIME UP!";
 }
 
 setTime();
@@ -24,6 +24,16 @@ var question1 = document.querySelector(".question1");
 var yes = document.querySelector(".yes");
 var no = document.querySelector(".no");
 
-question1.addEventListener("click", function(){
-    if(yes.addEventListener("click"))
+yes.addEventListener("click", function() {
+    sendMessage();
+    function sendMessage() {
+    question1.textContent = "Correct!";
+    };
+})
+
+no.addEventListener("click", function() {
+    sendMessage();
+    function sendMessage() {
+    question1.textContent = "Incorrect";
+    };
 })
