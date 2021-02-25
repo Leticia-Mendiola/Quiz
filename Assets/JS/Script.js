@@ -18,4 +18,12 @@ function sendMessage(){
     timeEL.textContent="timeup";
 }
 
-setTime()
+setTime();
+
+var question1 = document.querySelector(".question1");
+var yes = document.querySelector(".yes");
+var no = document.querySelector(".no");
+
+question1.addEventListener("click", function(){
+    if(yes.addEventListener("click"))
+})
