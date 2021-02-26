@@ -30,7 +30,7 @@ var no = document.querySelector(".no");
 question1.addEventListener("click", function(event) {
     // event.preventDefault();
     yes.addEventListener("click", function(event) {
-        event.preventDefault();
+        // event.preventDefault();
         sendMessage();
         function sendMessage() {
         question1.textContent = "Correct!";
@@ -38,7 +38,7 @@ question1.addEventListener("click", function(event) {
     })
 
     no.addEventListener("click", function(event) {
-        event.preventDefault();
+        // event.preventDefault();
         sendMessage();
         function sendMessage() {
         question1.textContent = "Incorrect";
