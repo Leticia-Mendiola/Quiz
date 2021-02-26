@@ -26,11 +26,11 @@ var no = document.querySelector(".no");
 question1.addEventListener("click", function(event) {
     event.preventDefault();
     var element = event.target
-    if (element.dataset.value="yes") {
+    if (element.dataset.value === "yes") {
         sendMessage();
         function sendMessage() {
         question1.textContent = "Correct!";}
-    } else { if(element.dataset.value="no") {
+    } else { if(element.dataset.value === "no") {
         sendMessage();
         function sendMessage() {
         question1.textContent = "Incorrect";}
@@ -40,11 +40,11 @@ question1.addEventListener("click", function(event) {
 question2.addEventListener("click", function(event) {
     event.preventDefault();
     var element = event.target;
-    if (element.dataset.value="yes") {
+    if (element.dataset.value === "yes") {
         sendMessage();
         function sendMessage() {
         question2.textContent = "Correct!";}
-    } else { if(element.dataset.value="no") {
+    } else { if(element.dataset.value === "no") {
         sendMessage();
         function sendMessage() {
         question2.textContent = "Incorrect";}
@@ -54,11 +54,11 @@ question2.addEventListener("click", function(event) {
 question3.addEventListener("click", function(event) {
     event.preventDefault();
     var element = event.target;
-    if (element.dataset.value="yes") {
+    if (element.dataset.value === "yes") {
         sendMessage();
         function sendMessage() {
         question3.textContent = "Correct!";}
-    } else { if(element.dataset.value="no") {
+    } else { if(element.dataset.value === "no") {
         sendMessage();
         function sendMessage() {
         question3.textContent = "Incorrect";}
@@ -68,11 +68,11 @@ question3.addEventListener("click", function(event) {
 question4.addEventListener("click", function(event) {
     event.preventDefault();
     var element = event.target;
-    if (element.dataset.value="yes") {
+    if (element.dataset.value === "yes") {
         sendMessage();
         function sendMessage() {
         question4.textContent = "Correct!";}
-    } else { if(element.dataset.value="no") {
+    } else { if(element.dataset.value === "no") {
         sendMessage();
         function sendMessage() {
         question4.textContent = "Incorrect";}
