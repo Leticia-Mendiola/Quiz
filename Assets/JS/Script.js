@@ -49,7 +49,7 @@ question1.addEventListener("click", function(event) {
 
 question2.addEventListener("click", function() {
     yes.addEventListener("click", function(event) {
-        event.preventDefault();
+        // event.preventDefault();
         sendMessage();
         function sendMessage() {
         question2.textContent = "Correct!";
@@ -57,7 +57,7 @@ question2.addEventListener("click", function() {
     })
 
     no.addEventListener("click", function(event) {
-        event.preventDefault();
+        // event.preventDefault();
         sendMessage();
         function sendMessage() {
         question2.textContent = "Incorrect";
