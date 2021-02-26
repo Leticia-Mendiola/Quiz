@@ -52,7 +52,7 @@ question2.addEventListener("click", function() {
         event.preventDefault();
         sendMessage();
         function sendMessage() {
-        question1.textContent = "Correct!";
+        question2.textContent = "Correct!";
         };
     })
 
